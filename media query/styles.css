@@ -1,0 +1,58 @@
+body {
+    background: yellow;
+}
+
+#info {
+    background: red;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 20px;
+}
+
+#width-size {
+    font-size: 50px;
+    color: white;
+    font-weight: 900;
+    font-style: bold;
+}
+
+#color-text {
+    font-size: 30px;
+    font-weight: 900;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+@media (min-width: 1000px) {
+    body {
+        background-color: blue;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 999px) {
+    body {
+        background-color: green;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+    body {
+        background-color: purple;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 600px) {
+    body {
+        background-color: gray;
+    }
+}
+
+@media (max-width: 400px) {
+    body {
+        background-color: yellow;
+    }
+}
