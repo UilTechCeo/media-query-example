@@ -33,7 +33,7 @@ body {
     }
 }
 
-@media (min-width: 800px) and (max-width: 999px) {
+@media (min-width: 800px) and (max-width: 1000px) {
     body {
         background-color: green;
     }
@@ -56,3 +56,11 @@ body {
         background-color: yellow;
     }
 }
+
+/* 
+less than 400px: yellow color; (Iphone SE)
+between 400px and 600px: gray color; (IPhone 14 Pro max)
+between 600px and 800px: purple color; (Ipad mini)
+between 800px and 1000px: green color; (Ipad Air)
+more than 1000px: blue color; (nest hub)
+*/
